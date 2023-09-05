@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(assets/estilo-degradado-colorido-abstracto-onda-fondo_483537-2250.avif);
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+button {
+    background: #5db6ff;
+    padding: 4px;
+    margin: 0;
+    color: #062641;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #062641;
+    color: #5db6ff;
+}
