@@ -3,7 +3,9 @@ const nombre = document.getElementById("nombre");
 const apellido = document.getElementById("apellido");
 const fecha = document.getElementById("fecha");
 
-boton.addEventListener("click", function () {
+boton.addEventListener("click", function (e) {
+    e.preventDefault();//evita el envio del formulario por defecto
+    
     fetch("https://jsonplaceholder.typicode.com/users", {
     method: "POST",
     body: JSON.stringify({
